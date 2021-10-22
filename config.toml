@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://carlosadean.eti.br/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Carlos Adean's personnal blog'
+theme = 'hugo-ink'
