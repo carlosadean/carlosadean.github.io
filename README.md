@@ -1,1 +1,1 @@
-## Carlos Adean's personnal blog
+## Carlos Adean's personal blog
