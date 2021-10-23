@@ -1,4 +1,0 @@
-baseURL = 'http://carlosadean.eti.br/'
-languageCode = 'en-us'
-title = 'Carlos Adean's personnal blog'
-theme = 'hugo-ink'
