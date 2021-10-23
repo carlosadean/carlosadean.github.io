@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.carlosadean.eti.br/posts/helloworld/</loc>
+    <loc>https://carlosadean.eti.br/</loc>
     <lastmod>2021-10-23T13:41:00-03:00</lastmod>
   </url><url>
-    <loc>https://www.carlosadean.eti.br/</loc>
+    <loc>https://carlosadean.eti.br/posts/helloworld/</loc>
     <lastmod>2021-10-23T13:41:00-03:00</lastmod>
   </url><url>
-    <loc>https://www.carlosadean.eti.br/posts/</loc>
+    <loc>https://carlosadean.eti.br/posts/</loc>
     <lastmod>2021-10-23T13:41:00-03:00</lastmod>
   </url><url>
-    <loc>https://www.carlosadean.eti.br/categories/</loc>
+    <loc>https://carlosadean.eti.br/categories/</loc>
   </url><url>
-    <loc>https://www.carlosadean.eti.br/tags/</loc>
+    <loc>https://carlosadean.eti.br/tags/</loc>
   </url>
 </urlset>
