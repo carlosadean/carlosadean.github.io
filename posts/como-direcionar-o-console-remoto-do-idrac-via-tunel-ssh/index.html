@@ -7,7 +7,7 @@
   <title>
     Carlos Adean
       |
-      Helloworld
+      Como redirecionar o console remoto do iDRAC via tunel SSH
 
 
     
@@ -56,7 +56,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="/posts/helloworld/" />
+  <link rel="canonical" href="/posts/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh/" />
 
   
   
@@ -81,8 +81,11 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Helloworld"/>
-<meta name="twitter:description" content="[root@zyon] ls / boot etc dev home usr tmp "/>
+<meta name="twitter:title" content="Como redirecionar o console remoto do iDRAC via tunel SSH"/>
+<meta name="twitter:description" content="Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto viewer.jnlp, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.
+A seguinte mensagem era apresentada: the connection has been dropped pelo icedtea.
+A solução eu encontrei nesse post e é a seguinte:
+ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l &lt;username&gt; -N host_remoto Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um."/>
 
 
 
@@ -98,12 +101,12 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "posts",
-        "name": "Helloworld",
-        "headline": "Helloworld",
+        "name": "Como redirecionar o console remoto do iDRAC via tunel SSH",
+        "headline": "Como redirecionar o console remoto do iDRAC via tunel SSH",
         "alternativeHeadline": "",
         "description": "
       
-        [root@zyon] ls \/ boot etc dev home usr tmp 
+        Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto viewer.jnlp, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.\nA seguinte mensagem era apresentada: the connection has been dropped pelo icedtea.\nA solução eu encontrei nesse post e é a seguinte:\nssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l \u0026lt;username\u0026gt; -N host_remoto Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um.
 
 
       
@@ -114,7 +117,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/carlosadean.eti.br\/posts\/helloworld\/"
+            "@id": "https:\/\/carlosadean.eti.br\/posts\/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh\/"
         },
         "author" : {
             "@type": "Person",
@@ -133,9 +136,9 @@
             "name": "Carlos Adean"
         },
         "copyrightYear" : "2021",
-        "dateCreated": "2021-10-23T13:41:00.00Z",
-        "datePublished": "2021-10-23T13:41:00.00Z",
-        "dateModified": "2021-10-23T13:41:00.00Z",
+        "dateCreated": "2021-11-03T20:33:07.00Z",
+        "datePublished": "2021-11-03T20:33:07.00Z",
+        "dateModified": "2021-11-03T20:33:07.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "Carlos Adean",
@@ -152,10 +155,32 @@
       ]
 
     ,
-        "url" : "https:\/\/carlosadean.eti.br\/posts\/helloworld\/",
-        "wordCount" : "9",
-        "genre" : [ ],
-        "keywords" : [ ]
+        "url" : "https:\/\/carlosadean.eti.br\/posts\/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh\/",
+        "wordCount" : "94",
+        "genre" : [ 
+      
+      "sysadmin"
+
+    
+      
+        ,
+
+      
+      "network"
+
+    ],
+        "keywords" : [ 
+      
+      "ssh"
+
+    
+      
+        ,
+
+      
+      "idrac"
+
+    ]
     }
   </script>
 
@@ -306,14 +331,29 @@
     <div class="post-content">
       
       <div class="post-title">
-        <h1>Helloworld</h1>
+        <h1>Como redirecionar o console remoto do iDRAC via tunel SSH</h1>
         
-      </div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>root@zyon<span style="color:#f92672">]</span> ls /
-boot etc dev home usr tmp
-</code></pre></div></div>
+      </div><p>Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto <em>viewer.jnlp</em>, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.</p>
+<p>A seguinte mensagem era apresentada: <em>the connection has been dropped</em> pelo icedtea.</p>
+<p>A solução eu encontrei nesse <a href="https://www.ducea.com/2008/08/20/drac-console-redirection-over-a-ssh-tunnel/">post</a> e é a seguinte:</p>
+<pre tabindex="0"><code class="language-console" data-lang="console">ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l &lt;username&gt; -N host_remoto
+</code></pre><p>Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um.</p>
+</div>
     <div class="post-footer">
       <div class="info">
         
+          <span class="separator"><a class="category" href="/categories/sysadmin/">sysadmin</a><a class="category" href="/categories/network/">network</a></span>
+
+
+
+
+        
+
+        
+          <span class="separator"><a class="tag" href="/tags/ssh/">ssh</a><a class="tag" href="/tags/idrac/">idrac</a></span>
+
+
+
 
         
       </div>

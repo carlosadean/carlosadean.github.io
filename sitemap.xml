@@ -2,17 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://carlosadean.eti.br/posts/intellimen/</loc>
+    <lastmod>2021-11-03T22:13:57-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/posts/intellimen/a-forca-do-homem/</loc>
+    <lastmod>2021-11-03T22:13:57-03:00</lastmod>
+  </url><url>
     <loc>https://carlosadean.eti.br/</loc>
-    <lastmod>2021-10-23T13:41:00-03:00</lastmod>
+    <lastmod>2021-11-03T22:13:57-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/posts/</loc>
+    <lastmod>2021-11-03T22:13:57-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/contato/</loc>
+    <lastmod>2021-11-03T22:07:02-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/categories/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/posts/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/tags/idrac/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/categories/network/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/tags/ssh/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/categories/sysadmin/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
+  </url><url>
+    <loc>https://carlosadean.eti.br/tags/</loc>
+    <lastmod>2021-11-03T20:33:07-03:00</lastmod>
   </url><url>
     <loc>https://carlosadean.eti.br/posts/helloworld/</loc>
     <lastmod>2021-10-23T13:41:00-03:00</lastmod>
-  </url><url>
-    <loc>https://carlosadean.eti.br/posts/</loc>
-    <lastmod>2021-10-23T13:41:00-03:00</lastmod>
-  </url><url>
-    <loc>https://carlosadean.eti.br/categories/</loc>
-  </url><url>
-    <loc>https://carlosadean.eti.br/tags/</loc>
   </url>
 </urlset>
