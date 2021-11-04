@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sysadmin on Carlos Adean</title>
+    <link>https://carlosadean.eti.br/tags/sysadmin/</link>
+    <description>Recent content in sysadmin on Carlos Adean</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Nov 2021 00:17:15 -0300</lastBuildDate><atom:link href="https://carlosadean.eti.br/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como saber por quanto tempo um processo está sendo executado?</title>
+      <link>https://carlosadean.eti.br/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/</link>
+      <pubDate>Thu, 04 Nov 2021 00:17:15 -0300</pubDate>
+      
+      <guid>https://carlosadean.eti.br/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/</guid>
+      
+        <description>Como possso saber por quanto tempo um processo ou PID está sendo executado em um sistema Linux? Você precisa usar o comando ps para ver as informaçõese sobre os processo ativos.
+O comando ps possui as seguintes opções de formatação:
+etime: exibe o tempo decorrido desde que o processo foi iniciado, no formato [[DD-]hh:]mm:ss.
+etimes: exibe em segundos o tempo decorrido desde que o processo foi iniciado.
+Como verificar por quanto tempo um processo está sendo executado?</description>
+      
+    </item>
+    
+  </channel>
+</rss>

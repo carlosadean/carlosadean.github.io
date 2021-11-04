@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Carlos Adean</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Nov 2021 22:13:57 -0300</lastBuildDate><atom:link href="https://carlosadean.eti.br/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 00:17:15 -0300</lastBuildDate><atom:link href="https://carlosadean.eti.br/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como saber por quanto tempo um processo está sendo executado?</title>
+      <link>https://carlosadean.eti.br/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/</link>
+      <pubDate>Thu, 04 Nov 2021 00:17:15 -0300</pubDate>
+      
+      <guid>https://carlosadean.eti.br/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/</guid>
+      
+        <description>Como possso saber por quanto tempo um processo ou PID está sendo executado em um sistema Linux? Você precisa usar o comando ps para ver as informaçõese sobre os processo ativos.
+O comando ps possui as seguintes opções de formatação:
+etime: exibe o tempo decorrido desde que o processo foi iniciado, no formato [[DD-]hh:]mm:ss.
+etimes: exibe em segundos o tempo decorrido desde que o processo foi iniciado.
+Como verificar por quanto tempo um processo está sendo executado?</description>
+      
+    </item>
+    
     <item>
       <title>Como redirecionar o console remoto do iDRAC via tunel SSH</title>
       <link>https://carlosadean.eti.br/posts/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh/</link>
@@ -18,17 +33,6 @@
 A seguinte mensagem era apresentada: the connection has been dropped pelo icedtea.
 A solução eu encontrei nesse post e é a seguinte:
 ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l &amp;lt;username&amp;gt; -N host_remoto Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um.</description>
-      
-    </item>
-    
-    <item>
-      <title>Helloworld</title>
-      <link>https://carlosadean.eti.br/posts/helloworld/</link>
-      <pubDate>Sat, 23 Oct 2021 13:41:00 -0300</pubDate>
-      
-      <guid>https://carlosadean.eti.br/posts/helloworld/</guid>
-      
-        <description>[root@zyon] ls / boot etc dev home usr tmp </description>
       
     </item>
     

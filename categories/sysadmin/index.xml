@@ -6,7 +6,22 @@
     <description>Recent content in sysadmin on Carlos Adean</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Nov 2021 20:33:07 -0300</lastBuildDate><atom:link href="https://carlosadean.eti.br/categories/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 00:17:15 -0300</lastBuildDate><atom:link href="https://carlosadean.eti.br/categories/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como saber por quanto tempo um processo está sendo executado?</title>
+      <link>https://carlosadean.eti.br/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/</link>
+      <pubDate>Thu, 04 Nov 2021 00:17:15 -0300</pubDate>
+      
+      <guid>https://carlosadean.eti.br/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/</guid>
+      
+        <description>Como possso saber por quanto tempo um processo ou PID está sendo executado em um sistema Linux? Você precisa usar o comando ps para ver as informaçõese sobre os processo ativos.
+O comando ps possui as seguintes opções de formatação:
+etime: exibe o tempo decorrido desde que o processo foi iniciado, no formato [[DD-]hh:]mm:ss.
+etimes: exibe em segundos o tempo decorrido desde que o processo foi iniciado.
+Como verificar por quanto tempo um processo está sendo executado?</description>
+      
+    </item>
+    
     <item>
       <title>Como redirecionar o console remoto do iDRAC via tunel SSH</title>
       <link>https://carlosadean.eti.br/posts/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh/</link>

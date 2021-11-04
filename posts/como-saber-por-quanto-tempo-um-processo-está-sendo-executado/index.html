@@ -7,7 +7,7 @@
   <title>
     Carlos Adean
       |
-      Como redirecionar o console remoto do iDRAC via tunel SSH
+      Como saber por quanto tempo um processo está sendo executado?
 
 
     
@@ -56,7 +56,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="/posts/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh/" />
+  <link rel="canonical" href="/posts/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado/" />
 
   
   
@@ -81,11 +81,12 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Como redirecionar o console remoto do iDRAC via tunel SSH"/>
-<meta name="twitter:description" content="Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto viewer.jnlp, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.
-A seguinte mensagem era apresentada: the connection has been dropped pelo icedtea.
-A solução eu encontrei nesse post e é a seguinte:
-ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l &lt;username&gt; -N host_remoto Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um."/>
+<meta name="twitter:title" content="Como saber por quanto tempo um processo está sendo executado?"/>
+<meta name="twitter:description" content="Como possso saber por quanto tempo um processo ou PID está sendo executado em um sistema Linux? Você precisa usar o comando ps para ver as informaçõese sobre os processo ativos.
+O comando ps possui as seguintes opções de formatação:
+etime: exibe o tempo decorrido desde que o processo foi iniciado, no formato [[DD-]hh:]mm:ss.
+etimes: exibe em segundos o tempo decorrido desde que o processo foi iniciado.
+Como verificar por quanto tempo um processo está sendo executado?"/>
 
 
 
@@ -101,12 +102,12 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "posts",
-        "name": "Como redirecionar o console remoto do iDRAC via tunel SSH",
-        "headline": "Como redirecionar o console remoto do iDRAC via tunel SSH",
+        "name": "Como saber por quanto tempo um processo está sendo executado?",
+        "headline": "Como saber por quanto tempo um processo está sendo executado?",
         "alternativeHeadline": "",
         "description": "
       
-        Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto viewer.jnlp, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.\nA seguinte mensagem era apresentada: the connection has been dropped pelo icedtea.\nA solução eu encontrei nesse post e é a seguinte:\nssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l \u0026lt;username\u0026gt; -N host_remoto Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um.
+        Como possso saber por quanto tempo um processo ou PID está sendo executado em um sistema Linux? Você precisa usar o comando ps para ver as informaçõese sobre os processo ativos.\nO comando ps possui as seguintes opções de formatação:\netime: exibe o tempo decorrido desde que o processo foi iniciado, no formato [[DD-]hh:]mm:ss.\netimes: exibe em segundos o tempo decorrido desde que o processo foi iniciado.\nComo verificar por quanto tempo um processo está sendo executado?
 
 
       
@@ -117,7 +118,7 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/carlosadean.eti.br\/posts\/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh\/"
+            "@id": "https:\/\/carlosadean.eti.br\/posts\/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado\/"
         },
         "author" : {
             "@type": "Person",
@@ -136,9 +137,9 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
             "name": "Carlos Adean"
         },
         "copyrightYear" : "2021",
-        "dateCreated": "2021-11-03T20:33:07.00Z",
-        "datePublished": "2021-11-03T20:33:07.00Z",
-        "dateModified": "2021-11-03T20:33:07.00Z",
+        "dateCreated": "2021-11-04T00:17:15.00Z",
+        "datePublished": "2021-11-04T00:17:15.00Z",
+        "dateModified": "2021-11-04T00:17:15.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "Carlos Adean",
@@ -155,8 +156,8 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
       ]
 
     ,
-        "url" : "https:\/\/carlosadean.eti.br\/posts\/como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh\/",
-        "wordCount" : "94",
+        "url" : "https:\/\/carlosadean.eti.br\/posts\/como-saber-por-quanto-tempo-um-processo-est%C3%A1-sendo-executado\/",
+        "wordCount" : "288",
         "genre" : [ 
       
       "sysadmin"
@@ -166,19 +167,26 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
         ,
 
       
-      "network"
+      "linux"
 
     ],
         "keywords" : [ 
       
-      "ssh"
+      "sysadmin"
 
     
       
         ,
 
       
-      "idrac"
+      "linux"
+
+    
+      
+        ,
+
+      
+      "bash"
 
     ]
     }
@@ -331,18 +339,50 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
     <div class="post-content">
       
       <div class="post-title">
-        <h1>Como redirecionar o console remoto do iDRAC via tunel SSH</h1>
+        <h1>Como saber por quanto tempo um processo está sendo executado?</h1>
         
-      </div><p>Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto <em>viewer.jnlp</em>, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.</p>
-<p>A seguinte mensagem era apresentada: <em>the connection has been dropped</em> pelo icedtea.</p>
-<p>A solução eu encontrei nesse <a href="https://www.ducea.com/2008/08/20/drac-console-redirection-over-a-ssh-tunnel/">post</a> e é a seguinte:</p>
-<pre tabindex="0"><code class="language-console" data-lang="console">ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l &lt;username&gt; -N host_remoto
-</code></pre><p>Um ponto negativo sobre o acesso acima obviamente é que só será possível abrir acessar um servidor por vez, caso você precise acessar mais de um.</p>
-</div>
+      </div><h3 id="como-possso-saber-por-quanto-tempo-um-processo-ou-pid-está-sendo-executado-em-um-sistema-linux">Como possso saber por quanto tempo um processo ou PID está sendo executado em um sistema Linux?</h3>
+<p>Você precisa usar o comando <code>ps</code> para ver as informaçõese sobre os processo ativos.</p>
+<p>O comando <code>ps</code> possui as seguintes opções de formatação:</p>
+<p><code>etime:</code> exibe o tempo decorrido desde que o processo foi iniciado, no formato [[DD-]hh:]mm:ss.</p>
+<p><code>etimes:</code> exibe em segundos o tempo decorrido desde que o processo foi iniciado.</p>
+<h3 id="como-verificar-por-quanto-tempo-um-processo-está-sendo-executado">Como verificar por quanto tempo um processo está sendo executado?</h3>
+<p>Você precisa informar o parâmetro <code>-o etimes</code> ou <code>-o etime</code> para o comando <code>ps</code>. A sintaxe é a seguinte:</p>
+<pre tabindex="0"><code class="language-console" data-lang="console">ps -p [PID] -o etimeps -p [PID] -o etimes
+</code></pre><h3 id="etapa-1-procurar-o-pid-e-um-processo-ex-evince">Etapa 1: Procurar o PID e um processo (ex: evince)</h3>
+<pre tabindex="0"><code class="language-console" data-lang="console">$ pidof evince
+7625
+</code></pre><h3 id="etapa-2-por-quanto-tempo-o-processo-do-evince-está-sendo-executado">Etapa 2: Por quanto tempo o processo do evince está sendo executado?</h3>
+<pre tabindex="0"><code class="language-console" data-lang="console">$ ps -p 7625 -o etime
+</code></pre><p>ou</p>
+<pre tabindex="0"><code class="language-console" data-lang="console">$ ps -p 7625 -o etimes
+</code></pre><p>Para esconder o cabeçalho, você pode executar:</p>
+<pre tabindex="0"><code class="language-console" data-lang="console">$ ps -p 7625 -o etime=$ ps -p 7625 -o etimes=
+</code></pre><p>Alguns exemplos de saída dos comandos acima:</p>
+<pre tabindex="0"><code class="language-console" data-lang="console">[cas@home ~]$ pidof evince
+7625 6883
+[cas@home ~]$ ps -p 7625 -o etime
+    ELAPSED
+      48:39
+[cas@home ~]$ ps -p 7625 -o etime=
+      48:43
+[cas@home ~]$ ps -p 7625 -o etimes
+ELAPSED
+   2929
+[cas@home ~]$ ps -p 7625 -o etimes=
+   2932
+[cas@home ~]$ ps -p 7625 -o pid,cmd,etime,uid,gid
+  PID CMD                             ELAPSED   UID   GID
+ 7625 evince /home/cas/Do       49:25  1000  1000
+</code></pre><p>O número 7625 é o PID do processo que queremos verificar, neste exemplo checamos o processo do evince, leitor pdf do Gnome. Já no exemplo abaixo estou exibindo o PID, o comando, o tempo, o ID do usuário e o ID do grupo:</p>
+<pre tabindex="0"><code class="language-console" data-lang="console">[cas@home ~]$ ps -p 7625 -o pid,cmd,etime,uid,gid
+  PID CMD                             ELAPSED   UID   GID
+ 7625 evince /home/cas/Do       49:25  1000  1000
+</code></pre></div>
     <div class="post-footer">
       <div class="info">
         
-          <span class="separator"><a class="category" href="/categories/sysadmin/">sysadmin</a><a class="category" href="/categories/network/">network</a></span>
+          <span class="separator"><a class="category" href="/categories/sysadmin/">sysadmin</a><a class="category" href="/categories/linux/">linux</a></span>
 
 
 
@@ -350,7 +390,7 @@ ssh -L 443:ip_do_idrac:443 -L 5900:ip_do_idrac:5900 -L 5901:ip_do_idrac:5901 -l 
         
 
         
-          <span class="separator"><a class="tag" href="/tags/ssh/">ssh</a><a class="tag" href="/tags/idrac/">idrac</a></span>
+          <span class="separator"><a class="tag" href="/tags/sysadmin/">sysadmin</a><a class="tag" href="/tags/linux/">linux</a><a class="tag" href="/tags/bash/">bash</a></span>
 
 
 
