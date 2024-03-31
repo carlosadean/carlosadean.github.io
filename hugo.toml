@@ -17,6 +17,13 @@ listDateFormat = "Jan 2"
 contentratio = 0.7
 readMore = true
 
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
+
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "Github"
