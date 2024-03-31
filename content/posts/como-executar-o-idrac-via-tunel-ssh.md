@@ -12,7 +12,6 @@ Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visu
 
 A seguinte mensagem era apresentada: *the connection has been dropped* pelo icedtea.
 
-
 A solução eu encontrei nesse [post](https://www.ducea.com/2008/08/20/drac-console-redirection-over-a-ssh-tunnel/) e é a seguinte:
 
 ```console
