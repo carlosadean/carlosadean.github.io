@@ -4,18 +4,65 @@ title = "Carlos Adean"
 theme = "anatole"
 paginate = "10"
 
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+#[markup]
+#    [markup.goldmark]
+#        [markup.goldmark.renderer]
+#        unsafe=true
+
+#[taxonomies]
+#    category = "categories"
+#    series = "series"
+#    tag = "tags"
+
+#[related]
+#  includeNewer = true
+#  threshold = 80
+#  toLower = true
+
+#[[related.indices]]
+#  name = 'keywords'
+#  weight = 100
+
+#[[related.indices]]
+#  name = 'tags'
+#  weight = 80
+
 [params]
-title = "I'm Carlos Adean"
+title = "Carlos Adean"
 author = "Carlos Adean"
-description = "Welcome to my universe of knowledge and thoughts "
+description = "Bem-vindo ao meu universo de notas e pensamentos."
 profilePicture = "images/carlosadean.jpg"
 copyright = "2020-{{ YEAR }}"
 displayMode = "dark"
-singleDateFormat = "Mon, Jan 2, 2006"
-indexDateFormat = "Mon, Jan 2, 2006"
-listDateFormat = "Jan 2"
+#hidesidebar = true
+mainSections = ["posts"]
+
+# date format
+#singleDateFormat = "Mon, Jan 2, 2006"
+#indexDateFormat = "Mon, Jan 2, 2006"
+#listDateFormat = "Jan 2"
+singleDateFormat = "2/1/2006"
+indexDateFormat = "2/1/2006"
+listDateFormat = "2/1/2006"
+
 contentratio = 0.7
 readMore = true
+postSectionName = "blog"
+contactFormAction = "https://formspree.io/f/mwkgryal"
+
+reversepagetitle = true
 
 [module]
   # uncomment line below for temporary local development of module
