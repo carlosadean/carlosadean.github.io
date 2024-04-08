@@ -9,30 +9,34 @@ slug = "como-usar-o-tmux"
 +++
 
 
-Cria uma sessão com nome aleatório
-```
+Criar uma sessão com nome aleatório
+```shell
 tmux
 ```
 
-Para criar uma nova sessão nomeada
-```
+Criar uma nova sessão nomeada
+```shell
 tmux new -s <nome da sessão>
 ```
 
-Para desatachar de uma sessão use `CTRL+B` ou o comando 
-```
+Desconectar de uma sessão use `CTRL+B` ou o comando 
+```shell
 tmux detach
 ```
 
-Para voltar (atachar) em uma sessão
-```
-tmux ls                         #para listar primeiro, caso tenha várias sessões abertas
-tmux attach -t <id or name>     #para atachar na sessão
+Para listar sessões
+```shell
+tmux ls
 ```
 
-Para dividir a tela na horizontal `CTRL+B` seguido de " (aspas duplas, isso mesmo!)
+Reconectar a uma sessão existente
+```shell
+tmux attach -t <id or name>     
+```
 
-Para dividir a tela na vertical `CTRL+B` seguido de %
+Dividir a tela na horizontal `CTRL+B` seguido de " (aspas duplas, isso mesmo!)
+
+Dividir a tela na vertical `CTRL+B` seguido de %
 
 Executar comandos em todos os painéis ao mesmo tempo, para desativar use no no final
 ```
