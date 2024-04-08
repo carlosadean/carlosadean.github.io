@@ -1,8 +1,10 @@
 +++
 title = 'Remover a primeira linha de arquivos com tail'
 date = 2019-04-01T18:36:14-03:00
-draft = true
-type = "post"
+draft = false
+#type = "post"
+tags = ["shell","cli"]
+categories = ["linux", "bash"]
 +++
 
 Uma maneira rápida de remover a primeira linha de arquivos texto é usando o comando `tail` e o redirecionador da saída padrão para criar um novo arquivo. Tem que usar o +2.

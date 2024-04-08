@@ -2,7 +2,7 @@
 title = 'Como Usar O Tmux'
 date = 2024-04-08T11:21:27-03:00
 draft = false
-type = "post"
+#type = "post"
 tags = ["shell", "tmux"]
 categories = ["linux", "tmux"]
 slug = "como-usar-o-tmux"

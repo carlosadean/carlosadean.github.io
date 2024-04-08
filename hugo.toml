@@ -42,11 +42,11 @@ localizedDates = false
 [params]
 title = "Carlos Adean"
 author = "Carlos Adean"
-description = "Bem-vindo ao meu universo de notas e pensamentos."
+description = "Dicas práticas do meu dia a dia como sysadmin e anotações diversas."
 profilePicture = "images/carlosadean.jpg"
 copyright = "2020-{{ YEAR }}"
 displayMode = "dark"
-#hidesidebar = true
+hidesidebar = false
 mainSections = ["posts"]
 
 # date format
@@ -61,7 +61,6 @@ contentratio = 0.7
 readMore = true
 postSectionName = "blog"
 contactFormAction = "https://formspree.io/f/mwkgryal"
-
 reversepagetitle = true
 
 [module]

@@ -6,7 +6,7 @@ author = "Carlos Adean"
 tags = ["ssh", "idrac"]
 categories = ["sysadmin", "network"]
 slug = "como-direcionar-o-console-remoto-do-idrac-via-tunel-ssh"
-type = "post"
+#type = "post"
 +++
 
 Esses dias precisei acessar um servidor Dell via SSH e ao tentar executar o visualizador remoto *viewer.jnlp*, que está disponível na interface do iDRAC, a conexão com o servidor era dropada e o app fechado.
