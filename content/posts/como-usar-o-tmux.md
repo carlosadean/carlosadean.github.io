@@ -8,6 +8,7 @@ categories = ["linux", "tmux"]
 slug = "como-usar-o-tmux"
 +++
 
+Há muitos anos utilizo o [GNU screen](https://www.gnu.org/software/screen) como ferramenta para proteger minhas sessões remotas do secure shell, também conhecido como SSH, mas de uns tempos pra cá resolvi usar o [tmux](https://github.com/tmux/tmux/wiki).
 
 Criar uma sessão com nome aleatório
 ```shell
