@@ -19,6 +19,6 @@ Sequencia para fazer um post com hugo
 6. verifique se o site está funcionando com o servidor local
    1. `hugo serve -D`
    2. É **serve** mesmo não é **server**!
-7. por fim faça `git add .` e `git push`
+7. por fim faça `git add .` e `git push origin main`
    1. tanto faz fazer pelo power shell ou direto pelo vscode
 8. existe um pipeline no github action que reconstrói o site automaticamente após um push no `branch main`.
