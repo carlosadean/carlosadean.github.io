@@ -1,7 +1,7 @@
 +++
 title = 'Como resolver o erro No matching key exchange method found'
 date = 2024-08-20T17:45:25-03:00
-draft = true
+draft = false
 tags = ["rocky9", "ssh", "openssl"]
 categories = ["linux", "ssh"]
 slug = "no-matching-key-exchange-method-found"
