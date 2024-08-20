@@ -1,5 +1,5 @@
 +++
-title = 'Linux: como saber se ocorreu um crash ou um desligamento controlado?'
+title = 'Linux: como saber a diferença entre um crash e um desligamento controlado?'
 date = 2016-11-15T11:52:10-03:00
 draft = false
 tags = ["shutdown", "rebot", "troubleshooting"]
