@@ -63,6 +63,7 @@ postSectionName = "blog"
 contactFormAction = "https://formspree.io/f/mwkgryal"
 reversepagetitle = true
 disableTitleCapitalization = true
+#disableArchiveTitleStyling  = true
 
 [module]
   # uncomment line below for temporary local development of module
