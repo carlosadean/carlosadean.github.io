@@ -53,9 +53,9 @@ mainSections = ["posts"]
 #singleDateFormat = "Mon, Jan 2, 2006"
 #indexDateFormat = "Mon, Jan 2, 2006"
 #listDateFormat = "Jan 2"
-singleDateFormat = "2/1/2006"
-indexDateFormat = "2/1/2006"
-listDateFormat = "2/1/2006"
+singleDateFormat = "02/01/2006"
+indexDateFormat = "02/01/2006"
+listDateFormat = "02/01/2006"
 
 contentratio = 0.7
 readMore = true
